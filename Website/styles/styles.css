@@ -22,6 +22,9 @@
     position: relative;
     text-align: center;
     font-size: 16px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    color: white;
     background: dimgray; /* For browsers that do not support gradients */
     background: -webkit-radial-gradient(dimgray, gray, lightgray); /* Safari 5.1 to 6.0 */
     background: -o-radial-gradient(dimgray, gray, lightgray); /* For Opera 11.6 to 12.0 */
