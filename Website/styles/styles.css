@@ -1,0 +1,30 @@
+.MainHeader{
+    font-size: 16px;
+    padding-bottom: 16px;
+    position: fixed;
+}
+.MainHeaderLogo{
+    max-height: 6em;
+    padding-right: 100px;
+}
+.MainHeaderNavButton{
+    line-height: 4em;
+    padding: 6em;
+    float: right;
+}
+.MainContent{
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+    padding-top: 10%
+}
+.MainFooter{
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    background: dimgray; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(dimgray, gray, lightgray); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(dimgray, gray, lightgray); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(dimgray, gray, lightgray); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(dimgray, gray, lightgray); /* Standard syntax */
+}
