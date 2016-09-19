@@ -4,12 +4,14 @@
     position: fixed;
 }
 .MainHeaderLogo{
-    max-height: 6em;
+    position: relative;
+    max-height: 10rem;
     padding-right: 100px;
 }
 .MainHeaderNavButton{
-    line-height: 4em;
-    padding: 6em;
+    position: relative;
+    line-height: 4rem;
+    padding: 3rem;
     float: right;
 }
 .MainContent{
