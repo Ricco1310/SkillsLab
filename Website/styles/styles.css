@@ -1,24 +1,27 @@
 .MainHeader{
     font-size: 16px;
-    padding-bottom: 16px;
-    position: fixed;
+    position: relative;
+    width: 100%;
+    background-color: lightgray;
 }
 .MainHeaderLogo{
     position: relative;
     max-height: 10rem;
     padding-right: 100px;
 }
+.MainHeaderNav{
+    float: right;
+}
 .MainHeaderNavButton{
     position: relative;
-    line-height: 4rem;
-    padding: 3rem;
-    float: right;
+}
+.MainHeaderNavButton li{
+    display: inline;
 }
 .MainContent{
     position: relative;
     max-width: 100%;
     padding: 10px;
-    padding-top: 10%
 }
 .MainFooter{
     position: relative;
