@@ -1,3 +1,7 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 .MainHeader{
     font-size: 16px;
     position: relative;
@@ -18,17 +22,15 @@
     padding-right: 1rem;
 }
 .MainHeaderNav{
-    float: right;
     padding: 5px;
+    position: relative;
     max-width: 100%;
-    max-height: 10rem;
 }
 .MainHeaderNavButton{
     position: relative;
-
 }
 .MainHeaderNavButton li{
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     border: 1px solid white;
     padding: 10px;
@@ -38,6 +40,7 @@
     text-decoration: none;
     color: white;
     text-align: center;
+    padding: 10px;
     
 }
 .MainContent{
