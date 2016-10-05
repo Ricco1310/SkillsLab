@@ -16,17 +16,17 @@ body{
 .MainHeader{
     font-size: 16px;
     position: relative;
-    width: 100%;
+    max-width: 100%;
 }
 .MainHeaderNav{
     padding: 5px;
     position: relative;
-    width: 100% !important;
+    max-width: 100% !important;
     align-content: center;
 }
 .MainHeaderNavButton{
     position: relative;
-    width: 100%
+    max-width: 100%
 }
 .MainHeaderNavButton li{
     position: relative;
@@ -35,15 +35,15 @@ body{
     border: 1px solid white;
     padding: 10px;
     background-color: rgba(100, 200, 225, 1);
-    width: 15%;
+    max-width: 100%;
 
 }
-.MainHeaderNavButton li a{
+.MainHeaderNavButton a li{
     text-decoration: none;
     color: white;
     text-align: center;
     padding: 10px;
-    width: 100%;
+    max-width: 100%;
     
 }
 .MainContent{
@@ -57,6 +57,9 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     border: 1px solid white;
+}
+.Content1 a{
+    
 }
 .Content2{
     position: relative;
