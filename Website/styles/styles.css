@@ -12,6 +12,7 @@ body{
     background: -moz-linear-gradient(bottom,rgba(0, 0, 0, 0), rgba(100,200, 225, 1));
     /* Standard syntax */
     background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(100, 200, 225, 1));
+    background-repeat: no-repeat;
 }
 .MainHeader{
     font-size: 16px;
