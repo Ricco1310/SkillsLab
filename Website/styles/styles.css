@@ -37,7 +37,36 @@ body{
     padding: 10px;
     background-color: rgba(100, 200, 225, 1);
     max-width: 100%;
-
+}
+.MainHeaderNavButton li:hover{
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid yellow;
+    padding: 10px;
+    background-color: rgba(100, 200, 225, 1);
+    max-width: 100%;
+    text-decoration: underline;
+}
+.MainHeaderNavButton .active li{
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid pink;
+    padding: 10px;
+    background-color: rgba(100, 200, 225, 1);
+    max-width: 100%;
+    font-style: italic;
+}
+.MainHeaderNavButton .active li:hover{
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid yellow;
+    padding: 10px;
+    background-color: rgba(100, 200, 225, 1);
+    max-width: 100%;
+    text-decoration: underline;
 }
 .MainHeaderNavButton a li{
     text-decoration: none;
