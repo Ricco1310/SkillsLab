@@ -49,8 +49,8 @@ body{
     background-color: rgba(100, 200, 225, 1);
     max-width: 100%;
     font-size: 2rem;
-    margin-left: 3px;
-    margin-right: 3px;
+    /*margin-left: 3px;*/
+    margin-right: 1%;
 }
 .MainHeaderNavButton li:hover{
     position: relative;
