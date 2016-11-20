@@ -141,32 +141,32 @@ body{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     border: 1px solid white;
 }
 .contact{
     text-align: center;
    
 }
-.Content1 a{
-
-    
-}
 .Content2{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     border: 1px solid white;
 }
 .Content3{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     border: 1px solid white;
 }
 .Content4{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     border: 1px solid white;
 }
 .MainFooter{
