@@ -15,7 +15,6 @@ body{
     background-repeat: no-repeat;
 }
 .MainHeader{
-    font-size: 16px;
     position: relative;
     max-width: 100%;
     max-height: 20%;
@@ -48,26 +47,19 @@ body{
     padding: 3%;
     background-color: rgba(100, 200, 225, 1);
     max-width: 100%;
-    font-size: 2rem;
+    font-size: 150%;
     /*margin-left: 3px;*/
     margin-right: 1%;
 }
+/*@media screen and (min-width:800px){
+    .MainHeaderNavButton li{
+        font-size: 200%;
+    }
+}*/
 .MainHeaderNavButton li:hover{
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid white;
-    padding: 3%;
-    background-color: rgba(100, 200, 225, 1);
-    max-width: 100%;
     text-decoration: underline;
 }
 .MainHeaderNavButton .active li{
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid white;
-    padding: 3%;
     background: rgba(0, 0, 0, 0); /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     background: -webkit-linear-gradient(bottom, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
@@ -78,16 +70,9 @@ body{
     /* Standard syntax */
     background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
     background-repeat: no-repeat;
-    max-width: 100%;
-    font-style: underline;
     font-weight: bold;
 }
 .MainHeaderNavButton .active li:hover{
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid white;
-    padding: 3%;
     background: rgba(0, 0, 0, 0); /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     background: -webkit-linear-gradient(bottom, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
@@ -98,7 +83,6 @@ body{
     /* Standard syntax */
     background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
     background-repeat: no-repeat;
-    max-width: 100%;
     text-decoration: underline;
 }
 .MainHeaderNavButton a li{
@@ -162,15 +146,6 @@ body{
     padding-bottom: 1%;
     border: 1px solid white;
 }
-.Content3 p{
-    position: relative;
-    text-align: center;
-    max-width: 30%;
-    display: inline-block;
-}
-.Content3 a{
-    display: block;
-}
 .Content4{
     position: relative;
     padding-left: 5%;
@@ -183,4 +158,8 @@ body{
     text-align: center;
     padding-bottom: 32px;
     padding-top: 32px;   
+}
+.inline33{
+    display: inline;
+    max-width: 33%;
 }
