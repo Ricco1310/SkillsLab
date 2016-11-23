@@ -160,6 +160,11 @@ body{
     padding-top: 32px;   
 }
 .inline33{
+    position: relative;
     display: inline;
     max-width: 33%;
+}
+.inline33 figure img{
+    max-width: 33%;
+    display: inline;
 }
