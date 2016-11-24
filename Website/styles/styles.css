@@ -161,10 +161,19 @@ body{
 }
 .inline33{
     position: relative;
-    display: inline;
+    display: inline-block;
     max-width: 33%;
 }
-.inline33 figure img{
-    max-width: 33%;
-    display: inline;
+.PriceTable{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.PriceTable td{
+    border: 1px solid white;
+}
+.DecorationImage{
+    position: relative;
+    max-width: 30%;
+    display: inline-block;
+    margin: auto;
 }
