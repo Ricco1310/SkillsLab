@@ -159,10 +159,12 @@ Section{
 .DecorationImage{
     position: relative;
     max-width: 20%;
-    display: inline-block;
+    display: block;
+    float: right;
+    margin-left: 10%;
 }
 .RightAlign{
     position: relative;
-    margin-left: 50%;
-    display: inline-block;
+    margin-left: 0%;
+    display: block;
 }
