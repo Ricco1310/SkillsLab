@@ -26,11 +26,11 @@ body{
     max-width: 100%;
     position: relative;
 }
-.MainHeader h1 {
+.MainHeader figure {
     float: left;
     width: 25%;
     position: relative;
-    margin-left: 3em;
+    margin-left: 5%;
 }
 .MainHeaderNav {
     margin: 9em 0;
@@ -141,13 +141,18 @@ Section{
 }
 .contact{
     text-align: center;
-   
 }
 .MainFooter{
     position: relative;
     text-align: center;
     padding-bottom: 32px;
     padding-top: 32px;   
+}
+.MainFooter figure{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 5%;
 }
 .inline33{
     position: relative;
