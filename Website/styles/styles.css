@@ -14,57 +14,39 @@ body{
     background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(100, 200, 225, 1));
     background-repeat: no-repeat;
 }
-.MainHeader{
-    position: relative;
+.MainHeader {
     max-width: 100%;
-    max-height: 20%;
     border-bottom: 3px solid white;
     margin-bottom: 1%;
     display: block;
+    overflow: auto;
 }
-.MainHeader img{
-    width: 25%;
-    position: relative;
-    margin-left: 9%;
-    margin-right: 9%;
-
+.MainHeader img {
     display: block;
     max-width: 100%;
     position: relative;
-   
 }
-.MainHeader h1{
-    display: inline-block;
+.MainHeader h1 {
+    float: left;
     width: 25%;
     position: relative;
+    margin-left: 3em;
+}
+.MainHeaderNav {
+    margin: 9em 0;
+}
 
-
-}
-.MainHeader h1{
-    float: left;
-}
-.MainHeaderNav{
-    padding: 10px;
-    padding: 1px;
-    position: relative;
-    max-width: 100% !important;
-    align-content: center;
-    display: inline-block;
-}
 .MainHeaderNavButton{
-    position: relative;
-    max-width: 100%;
 }
-.MainHeaderNavButton li{
-    position: relative;
+.MainHeaderNavButton li {
+    overflow: auto;
     display: inline-block;
+    position: relative;
     list-style-type: none;
     border: 1px solid white;
     padding: 1%;
     background-color: rgba(100, 200, 225, 1);
-    max-width: 100%;
     font-size: 150%;
-    /*margin-left: 3px;*/
     margin-right: 1%;
 }
 /*@media screen and (min-width:800px){
@@ -109,12 +91,11 @@ body{
 .largeTexts:hover{
     letter-spacing: -2px;
 }
-.MainHeaderNavButton a li{
+.MainHeaderNavButton a li {
     text-decoration: none;
     color: white;
     text-align: center;
     padding: 3%;
-    max-width: 100%;
 }
 /*@media screen and (max-width: 480px){
     .MainHeaderNav{
