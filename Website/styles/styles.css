@@ -20,17 +20,19 @@ body{
     max-height: 20%;
     border-bottom: 3px solid white;
     margin-bottom: 1%;
+    display: block;
 }
 .MainHeader img{
-    width: 10%;
-    display: block;
-    float: right;
+    width: 25%;
     position: relative;
+    margin-left: 9%;
     margin-right: 9%;
 }
+.MainHeader h1{
+    float: left;
+}
 .MainHeaderNav{
-    margin-left: 7%;
-    padding: 5px;
+    padding: 10px;
     position: relative;
     max-width: 100% !important;
     align-content: center;
@@ -44,7 +46,7 @@ body{
     display: inline-block;
     list-style-type: none;
     border: 1px solid white;
-    padding: 3%;
+    padding: 1%;
     background-color: rgba(100, 200, 225, 1);
     max-width: 100%;
     font-size: 150%;
@@ -71,6 +73,7 @@ body{
     background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
     background-repeat: no-repeat;
     font-weight: bold;
+    letter-spacing: -1px;
 }
 .MainHeaderNavButton .active li:hover{
     background: rgba(0, 0, 0, 0); /* For browsers that do not support gradients */
@@ -84,6 +87,13 @@ body{
     background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
     background-repeat: no-repeat;
     text-decoration: underline;
+    letter-spacing: -1px;
+}
+.largeTexts{
+    letter-spacing: -2px;
+}
+.largeTexts:hover{
+    letter-spacing: -2px;
 }
 .MainHeaderNavButton a li{
     text-decoration: none;
